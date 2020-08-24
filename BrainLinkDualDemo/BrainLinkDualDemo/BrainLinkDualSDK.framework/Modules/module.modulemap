@@ -1,0 +1,11 @@
+framework module BrainLinkDualSDK {
+  umbrella header "BrainLinkDualSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module BrainLinkDualSDK.Swift {
+    header "BrainLinkDualSDK-Swift.h"
+    requires objc
+}
